@@ -3,7 +3,7 @@ import pandas as pd
 import sqlite3
 import io
 
-st.title("Convertidor CSV a SQLite (.db)")
+st.title("Convertidor CSV a .db")
 st.write("Convierte tus archivos CSV a bases de datos SQLite")
 
 # Upload del archivo CSV
