@@ -10,7 +10,7 @@ st.write("Convierte tus archivos CSV a bases de datos SQLite")
 uploaded_file = st.file_uploader("Sube tu archivo CSV", type="csv")
 
 # Nombre de la tabla/base de datos
-db_name = st.text_input("Nombre de la tabla:", "mi_tabla")
+db_name = st.text_input("Nombre de la tabla de salida:", "nombre_tabla_de_salida")
 
 if uploaded_file is not None and db_name:
     if st.button("Convertir a .db"):
